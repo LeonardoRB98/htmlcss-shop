@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main{
+  width: 1000px;
+  background-color: lightgray;
+  margin: auto;
+}
+
+.row {
+text-align: center;
+}
+
+.cover {
+  display: inline-block;
+  position: relative;
+}
+.discount {
+  width: 50px;
+  height: 30px;
+  /* background-color: green; */
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.discount.off30 {
+  background-color: green;
+}
+.discount.off5 {
+  background-color: red;
+}
+.favorite {
+  position: absolute;
+  bottom: 5%;
+  right: 50%;
+}
