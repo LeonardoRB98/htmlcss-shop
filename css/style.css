@@ -35,8 +35,10 @@ text-align: center;
   background-color: red;
 }
 .favorite {
+  width: 100%;
   position: absolute;
   bottom: 5%;
-  right: 50%;
+  text-align: center;
   display: none;
+  cursor: pointer;
 }
